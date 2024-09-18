@@ -22,34 +22,30 @@ type FooterLinkType = {
 
 export const quickLinks: FooterLinkType[] = [
   {
-    name: 'About us',
-    link: 'about.v1'
+    name: 'footer.links.link1',
+    link: ''
   },
   {
-    name: 'Contact us',
+    name: 'footer.links.link2',
+    link: 'about-us'
+  },
+  {
+    name: 'footer.links.link3',
     link: 'contact.v1'
   },
   {
-    name: 'Career',
-    link: 'career',
-    badge: '2 Job'
+    name: 'footer.links.link4',
+    link: 'portfolio.fine-fragrance',
   },
   {
-    name: 'Career detail',
-    link: 'career.single'
+    name: 'footer.links.link5',
+    link: ''
   },
   {
-    name: 'Become a partner',
-    link: 'contact.v1'
+    name: 'footer.links.link6',
+    link: ''
   },
-  {
-    name: 'Sign in',
-    link: 'auth.sign-in'
-  },
-  {
-    name: 'Sign up',
-    link: 'auth.sign-up'
-  }
+ 
 ]
 
 export const communityLinks: FooterLinkType[] = [
@@ -60,27 +56,21 @@ export const communityLinks: FooterLinkType[] = [
     name: 'Supports',
     icon: BIconBoxArrowUpRight
   },
-  {
-    name: 'Faqs',
-    link: 'faqs'
-  },
+ 
   {
     name: 'Privacy Policy'
   },
-  {
-    name: 'News and blogs',
-    link: 'blog.grid'
-  },
+  
   {
     name: 'Terms & condition',
-    link: 'terms-conditions'
+    link: 'about-us'
   }
 ]
 
 export const followOnIcons = [
   { icon: faFacebookF, variant: 'bg-facebook' },
   { icon: faInstagram, variant: 'bg-instagram' },
-  { icon: faTwitter, variant: 'bg-twitter' },
+  // { icon: faTwitter, variant: 'bg-twitter' },
   { icon: faLinkedinIn, variant: 'bg-linkedin' },
   { icon: faYoutube, variant: 'bg-youtube' }
 ]
@@ -96,7 +86,7 @@ export const contactDetails = {
 export const footerQuickLinks3: FooterLinkType[] = [
   {
     name: 'About us',
-    link: 'about.v1'
+    link: 'about-us'
   },
   {
     name: 'Contact us',
@@ -104,24 +94,15 @@ export const footerQuickLinks3: FooterLinkType[] = [
   },
   {
     name: 'Services',
-    link: 'services.v1'
-  },
-  {
-    name: 'Career',
-    link: 'career',
-    badge: '2 Job'
-  },
-  {
-    name: 'Career detail',
-    link: 'career.single'
+    link: 'contact.v1'
   },
   {
     name: 'Case studies',
-    link: 'portfolio.showcase'
+    link: 'contact.v1'
   },
   {
     name: 'Team',
-    link: 'pages.team'
+    link: 'contact.v1'
   }
 ]
 
@@ -146,29 +127,17 @@ export const footerCommunityLinks3 = [
 export const quickLinks6: FooterLinkType[] = [
   {
     name: 'About us',
-    link: 'about.v1'
+    link: 'about-us'
   },
   {
     name: 'Contact us',
     link: 'contact.v1'
   },
-  {
-    name: 'Career',
-    link: 'career'
-  },
-  {
-    name: 'Career detail',
-    link: 'career.single'
-  },
+ 
+
   {
     name: 'Become a partner',
     link: 'contact.v1'
   },
-  {
-    name: 'Sign up',
-    link: 'auth.sign-up'
-  },
-  {
-    name: 'Cookie'
-  }
+  
 ]
